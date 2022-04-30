@@ -4,7 +4,7 @@
 
 ## About
 The Bee project brings another copyleft and open-source package manager to GNU/Linux.
-This package manager aims to compliment other existing package managers such as `apt`, `dnf`, `portage`, etc. Dependencies are often times installed from your GNU/Linux repository. 
+This package manager aims to compliment other existing package managers such as `apt`, `dnf`, `portage`, etc. Dependencies are often times installed from your GNU/Linux distribution's repository. 
 
 Currently, using your distribution's repositories is necessary, however, with time  it
 will become completely optional, as more and more packages get added to Bee.
