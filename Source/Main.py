@@ -22,14 +22,17 @@ packageSource = settings[1].split("\n")
 def Install(package:str):
     print(f"Installing {package}")
     os.system(f'cd $HOME/.bee/Repositories; git clone {packageSource[0]}{package}')
+    os.system(f'cd $HOME/.bee/Repositories/{package}; chmod +x Install.sh; ./Install.sh')
 
 def Remove(package:str):
     print(f"Removing {package}")
+    os.system(f'cd $HOME/.bee/Repositories/{package}; chmod +x Remove.sh; ./Remove.sh')
     os.system(f'cd $HOME/.bee/Repositories; rm -r -f {package}')
 
 def Update(package:str):
     print(f"Updating {package}")
     os.system(f'cd $HOME/.bee/Repositories/{package}; git pull')
+    os.system(f'cd $HOME/.bee/Repositories/{package}; chmod +x Build.sh; ./Build.sh')
 
 #endregion
 
