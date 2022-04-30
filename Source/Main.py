@@ -9,9 +9,10 @@ import os
 
 #region Variables
 
+username = os.getlogin()
 home = os.environ['HOME']
 settingsFile = open(f'{home}/.bee/Settings.txt')
-settings = settingsFile.readlines()
+settings = settingsFile.readlines() 
 packageSource = settings[1].split("\n")
 
 #endregion
@@ -28,11 +29,15 @@ def Remove(package:str):
 
 def Update(package:str):
     print(f"Updating {package}")
-    os.system(f'cd $HOME/.bee/Repositories; git pull {package}')
+    os.system(f'cd $HOME/.bee/Repositories/{package}; git pull')
 
 #endregion
 
 if __name__ == "__main__":
+    if username == "root":
+        print("Bee does not support root actions! It is incredibly unsfafe. \n Do NOT try to circumvent this!")
+        exit()
+
     #region Arguments
 
     argumentParser = argparse.ArgumentParser()
