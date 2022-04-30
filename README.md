@@ -1,0 +1,20 @@
+# The `bee` Package Manger
+
+[![Ko-Fi](https://img.shields.io/badge/donate-kofi-blue?style=for-the-badge&logo=ko-fi&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://ko-fi.com/molasses)
+[![Patreon](https://img.shields.io/badge/donate-patreon-blue?style=for-the-badge&logo=patreon&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://www.patreon.com/molasseslover)
+![GitHub Downloads](https://img.shields.io/github/downloads/MolassesLover/Bee/total?color=E35B57&logo=github&logoColor=FFFFFF&style=for-the-badge&labelColor=232323)
+
+## About
+The Bee project brings another copyleft and open-source package manager to GNU/Linux.
+This package manager aims to compliment other existing package managers such as `apt`, `dnf`, `portage`, etc. Dependencies are often times installed from your GNU/Linux repository. 
+
+Currently, using your distribution's repositories is necessary, however, with time  it
+will become completely optional, as more and more packages get added to Bee.
+
+### Packages
+All official Bee packages are hosted on the [@BeePackages](https://github.com/BeePackages)
+GitHub organisation.
+
+### Installation
+Simply run the `Install.sh` script in order to install the Bee package manager across 
+your system.
