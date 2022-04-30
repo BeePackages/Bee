@@ -1,2 +1,2 @@
 Source:
-https://github.com/BeePackages
+https://github.com/BeePackages/

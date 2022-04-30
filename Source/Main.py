@@ -37,10 +37,6 @@ def Update(package:str):
 #endregion
 
 if __name__ == "__main__":
-    if username == "root":
-        print("Bee does not support root actions! It is incredibly unsfafe. \n Do NOT try to circumvent this!")
-        exit()
-
     #region Arguments
 
     argumentParser = argparse.ArgumentParser()
