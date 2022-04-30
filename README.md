@@ -15,5 +15,5 @@ All official Bee packages are hosted on the [@BeePackages](https://github.com/Be
 GitHub organisation.
 
 ### Installation
-Simply run the `Install.sh` script in order to install the Bee package manager across 
-your system.
+Simply run the [`Install.sh`](Install.sh) script in order to install the Bee package 
+manager across your system.
