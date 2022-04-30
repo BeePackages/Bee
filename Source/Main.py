@@ -5,11 +5,22 @@
 # For further information, view the LICENSE.md file.
 
 import argparse
+import os
+
+#region Variables
+
+home = os.environ['HOME']
+settingsFile = open(f'{home}/.bee/Settings.txt')
+settings = settingsFile.readlines()
+packageSource = settings[1].split("\n")
+
+#endregion
 
 #region Functions
 
 def Install(package:str):
     print(f"Installing {package}")
+    os.system(f'cd $HOME/.bee/Repositories; git clone {packageSource[0]}{package}')
 
 def Remove(package:str):
     print(f"Removing {package}")
