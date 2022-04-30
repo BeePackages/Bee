@@ -1,5 +1,4 @@
 from setuptools import setup
-from Cython.Build import cythonize
 
 setup(
     name = "BeePM",
@@ -8,6 +7,6 @@ setup(
     author = "Maeve Garside",
     author_email = "60114762+MolassesLover@users.noreply.github.com",
     url = 'https://github.com/MolassesLover/Bee',
+    license = 'GNU General Public License v3.0',
     packages = ['beepm'],
-    ext_modules = cythonize('beepm/Main.py'),
 )
