@@ -11,7 +11,7 @@ Currently, using your distribution's repositories is necessary, however, with ti
 will become completely optional, as more and more packages get added to Bee.
 
 ### Packages
-All official Bee packages are hosted on the [@BeePackages](https://github.com/BeePackages)
+All official Bee packages will be hosted on the [@BeePackages](https://github.com/BeePackages)
 GitHub organisation.
 
 ### Installation
